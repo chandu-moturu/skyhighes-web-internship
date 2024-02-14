@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Authentication Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="./5.css" rel="stylesheet"> 
+    <script src="./5.js"></script>
+  </head>
+  <body>
+    <section class="CheckBox">
+      <div style="display: flex; justify-content:flex-start; align-items:center;gap:10px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Blue_question_mark_icon.svg" alt="">
+        <h3>Authentication required</h3>
+      </div>
+      <form action="#" method="post" name="authentication" id="authentication"  class="form">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" minlength="3" maxlenth="15" pattern="[a-zA-Z0-9]+" required>
+        </div>
+        <div>
+            <label for="password">Password </label>
+            <input type="password" name="password" id="password" minlength="8" maxlength="15" pattern="[a-zA-Z0-9]+" required>
+        </div>
+        <div class="button-container">
+            <button id="rule" type="button" onclick="reset()">clear</button>
+            <button id="sub" type="submit"  onclick="Verify();">Submit</button>
+        </div>
+      </form>
+    </section>
+  </body>  
+</html>

@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    margin: 10% ;
+    color:black;
+    font-family: Arial, "sans serif";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .checkbox{
+    width: 600px;
+    background-color: rgb(197, 194, 194);
+    padding: 20px;
+  }
+
+  .form{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  .form input{
+    width: 400px;
+    padding: 5px;
+  }
+  
+  .button-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 250px;
+  }
+ .button-container button{
+    border: none;
+ }
